@@ -60,5 +60,5 @@ if (BUILD_SHARED_LIBS)
 endif()
 
 install(TARGETS glfw DESTINATION lib)
-install(FILES ${glfw_HEADERS} DESTINATION include)
+install(FILES ${glfw_HEADERS} DESTINATION include/GL)
 
